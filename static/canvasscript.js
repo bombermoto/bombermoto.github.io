@@ -402,7 +402,7 @@ function draw() {
     }
 
     if (skillchoice == 0 && charchoice != 0) {
-        Textset("Choose a Talent", 830, 650);
+        Textset("Choose a Talent and hit!", 830, 650);
     }
 
     //selector for skills
