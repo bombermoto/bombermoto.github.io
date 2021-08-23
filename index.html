@@ -1,15 +1,31 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <html lang="en">
-  <head>
-    <title>Nick Osko</title>
-    <style>
-        h2 {
-            color: rgb(119, 39, 143);      
-        }
-    </style>
-  </head>
-  <body>
-      <h2>Site is under constuction</h2>
-      
-  </body>
+<head>
+  <title>Game DG</title>
+  
+  <link rel="stylesheet" type="text/css" href="/static/style.css">
+  <script type="text/javascript" src="/static/script.js" ></script>
+</head>
+<body>
+    
+        <div class="gpoll">
+            <button class="open-button" onclick="opencloseForm()">Open Poll Form</button>
+            <iframe id="poll" src="https://docs.google.com/forms/d/e/1FAIpQLScKnmYRaS6lo9kYqUcz07NFTQ3jkaOCp5NheiSx7FKqYjet1A/viewform?embedded=true" width="640" height="493" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
+        </div>
+
+        <div class="main">
+            <canvas id="canvas" height='720' width='1280' ></canvas>
+        </div>
+        
+        <div class="footer">
+            <p>What do you think if web events were like</p>
+            <p>mini-games instead of simple clickers?</p> 
+
+        </div>
+        
+        <script type="text/javascript" src="/static/canvasscript.js" ></script>
+
+    
+</body>
 </html>
