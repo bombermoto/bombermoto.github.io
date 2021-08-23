@@ -303,6 +303,7 @@ function clicked(e) {
     //enemy cliked
     if (charchoice != 0 && skillchoice != 0) {
         if (x > 100 && x < 450 && y > 100 && y < 367) {
+            f = 30;
             enemychoice = 1;
             enemychoicewait = 1;
             hp1 = hp1 - skillhit;
@@ -315,6 +316,7 @@ function clicked(e) {
             ch4xy = [590, 500];
         }
         if (x > 465 && x < 815 && y > 50 && y < 392) {
+            f = 30;
             enemychoice = 2;
             enemychoicewait = 2;
             hp2 = hp2 - skillhit;
@@ -327,6 +329,7 @@ function clicked(e) {
             ch4xy = [590, 500];
         }
         if (x > 870 && x < 1120 && y > 90 && y < 367) {
+            f = 30;
             enemychoice = 3;
             enemychoicewait = 3;
             hp3 = hp3 - skillhit;
